@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fielset</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Identitas</legend>
+        <label for="nama">nama</label><input type="text" name="nama" id="nama">
+        <label for="email">email</label><input type="email" name="email" id="email">
+        <label for="telephone">telephone</label><input type="tel" name="telephone" id="telephone" pattern="(62)[0-9]{5,20}">
+    </fieldset>
+    <fieldset>
+        <legend>Alamat</legend>
+        <label for="jalan">jalan</label><input type="text" name="jalan" id="jalan">
+        <label for="kota">kota</label><input type="text" name="kota" id="kota">
+        <label for="provinsi">provinsi</label><input type="text" name="provinsi" id="provinsi">
+    </fieldset>
+    <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
