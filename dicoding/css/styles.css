@@ -184,6 +184,64 @@ nav a:hover {
   color: orange;
 }
 
+.title {
+  text-align: center;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+}
+
+/* Card */
+.card {
+  width: 320px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card-content {
+  flex-grow: 1; /* Memperluas konten untuk mengisi ruang yang tersedia */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Mengatur konten di tengah secara horizontal */
+  justify-content: center; /* Mengatur konten di tengah secara vertikal */
+}
+
+.card-content h3 {
+  color: #333;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card-content p {
+  color: #666;
+}
+
+.card-content a {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.card-content a:hover {
+  background-color: #0056b3;
+}
+/* Akhir Card */
+
 /* Hamburger menu */
 
 .menu-toggle {
