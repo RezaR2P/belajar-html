@@ -134,6 +134,7 @@ body {
   font-family: "Montserrat", sans-serif;
   overflow-x: hidden;
   box-sizing: border-box;
+  background-color: #f6b3bf;
 }
 
 /* NavBar */
@@ -172,6 +173,13 @@ nav a:hover {
 
 /* Akhir NavBar */
 
+/* Banner */
+.home {
+  width: 100%;
+  height: 92vh;
+  object-fit: cover;
+}
+/* Akhir Banner */
 .checked {
   color: orange;
 }
