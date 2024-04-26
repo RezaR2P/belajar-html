@@ -142,13 +142,14 @@ nav {
   display: flex;
   background-color: blueviolet;
   justify-content: space-around;
-  padding: 15px 0;
+  padding: 8px 0;
 }
 
 .logo {
   color: white;
   font-family: "Bebas Neue", sans-serif;
   font-size: 25px;
+  margin-right: 400px;
 }
 
 nav ul {
@@ -156,6 +157,7 @@ nav ul {
   list-style: none;
   width: 40%;
   justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
@@ -170,7 +172,9 @@ nav a:hover {
 
 /* Akhir NavBar */
 
-/* banner */
+.checked {
+  color: orange;
+}
 
 /* Hamburger menu */
 
