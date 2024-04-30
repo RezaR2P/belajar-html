@@ -286,6 +286,18 @@ nav a:hover {
 }
 /* akhir sepatu terakhir rilis */
 
+/* video */
+iframe {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 90%;
+  height: 85vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* akhir video */
+
 /* Hamburger menu */
 
 .menu-toggle {
