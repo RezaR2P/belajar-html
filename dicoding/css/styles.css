@@ -389,9 +389,31 @@ iframe {
 
 /* About */
 #about {
-  display: flex;
+  padding: 20px;
+}
+
+#about h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
 }
 /* Akhir About */
+
+/* Footer */
+footer {
+  margin-top: 50px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
 /* Hamburger menu */
 
 .menu-toggle {
