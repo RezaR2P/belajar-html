@@ -192,38 +192,44 @@ nav a:hover {
 }
 
 /* Card */
+.card-1 {
+  display: flex;
+  justify-content: space-evenly;
+}
 .card {
+  display: flex;
+  flex-direction: column;
   width: 320px;
   background-color: #f0f0f0;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 20px;
   overflow: hidden;
 }
 
 .card img {
   width: 100%;
-  height: auto;
+  height: 300px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
 .card-content {
-  flex-grow: 1; /* Memperluas konten untuk mengisi ruang yang tersedia */
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
-  align-items: center; /* Mengatur konten di tengah secara horizontal */
-  justify-content: center; /* Mengatur konten di tengah secara vertikal */
+  align-items: center;
+  justify-content: center;
 }
 
 .card-content h3 {
   color: #333;
   font-size: 1.2em;
-  margin-bottom: 10px;
+  text-align: center;
 }
 
 .card-content p {
   color: #666;
+  font-size: 15px;
 }
 
 .card-content a {
@@ -233,7 +239,8 @@ nav a:hover {
   padding: 10px 20px;
   text-decoration: none;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 7px;
+  margin-bottom: 7px;
   text-align: center;
 }
 
@@ -241,6 +248,43 @@ nav a:hover {
   background-color: #0056b3;
 }
 /* Akhir Card */
+
+/* sepatu terakhir rilis */
+.new {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+  margin-top: 70px;
+  background-color: #ffffff;
+}
+.new img {
+  width: 100%;
+  height: auto;
+}
+
+.new div .title1 {
+  text-align: left;
+  padding: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3em;
+}
+
+.new div p {
+  text-align: left;
+  padding: 10px;
+  font-family: "tahoma";
+  font-size: 1.2em;
+  color: #666;
+}
+
+.new div a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+/* akhir sepatu terakhir rilis */
 
 /* Hamburger menu */
 
